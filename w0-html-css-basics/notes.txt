@@ -1,0 +1,85 @@
+slides: https://slides.com/harkiratsingh-8/deck#/9
+
+Browsers: 
+    used for rendering(putting all images/buttons etc) html files (to show pages) from servers. Chrome/Edge/Firefox
+    anyone can build their browsers(with coorect specs)
+    HTML CSS JS are required in building websites. These 3 are enough to create as fancy website as possible. But its not used a lot, (HTML and CSS not used frequently). Now a days
+    React and other frameworks are used. Still need JS a lot. Minimal HTML and CSS used.
+    right click -> inspect -> you can see html
+
+HTML
+    defines the structure of the websites
+    2 jargons:
+        tags: primitives given by html for us to organize the webiste
+        atttributes:
+
+    Tags:
+    
+        we can use html without tags, but to organize web page well, we need tags.
+        div is a popular tag, stands for 1 division of your page.
+
+        type of tags:
+        <html></html> : not imp, put all in html 
+        <head></head> : put some metadata: like this:
+            <title></title> : the tab title to be displayed
+        <body></body> : actual content of the page
+
+
+        <div></div> : used to separate different sections (rows) in page, the whole width.
+        <span></span> : only takes as much space as it needs, not going to next line
+
+        <h1></h1> , h2, h3, ...h6 headings. some styling without CSS.
+        <p> paragraph. long text
+        <img> : include a image
+
+        <a> : take the user to another url, (use target="_blank" to take it to new tab)
+
+        <center>: take stuff to center of page: outdated/not recommended
+
+        <b> / <i> : bold and italics
+
+        <button> : add a simple button (very basic : use css to style)
+
+        <input> : create an input box (very basic: use css to style)
+
+
+    Attributes:
+        needed to accompany tags. anything you want to associate to a tag
+        for example:
+
+        <img src="">  :             src is a attribute of img tag
+        <a href="google.com">  :    href is an attribute of "a" tag
+        <button onclick=""> :       onclick is an attribute of button tag
+        <input id="username"> :     id is an attribute of input tag
+
+
+
+CSS
+    for styling and positioning divs spans anyway you want. any styling inside a browser is handled by CSS.
+    style attribute for eg:
+
+    <h1 style="color:red; backgroud:green"> hi there</h1>
+    you wont remember all the attributes, so google them, if you work frequently with these, then you may develop muscle memory
+
+    Common style Attributes
+        font-size: 20px; //font size
+        border-radius : 10px; //smooth corners 
+        border: 2px solid black // entire border line of the div, can be dotted etc
+
+        padding: 5px; add some space all around inside the div
+        margin: 7px; add some space outside the div
+
+        Can use Chrome Dev Tools(Right Click -> Inspect -> Elements Tab : Styles sub-tab), to debug
+        and quick testing your style settings
+
+        box-shadow: 2px, 10px, 10px black;  add shadow (left-right shadow positioning, up-down shadow positioning, blur of shadow, color of shadow)
+
+
+        usually you need to get the figma file from where you copy the styles 
+
+
+
+
+
+
+JS

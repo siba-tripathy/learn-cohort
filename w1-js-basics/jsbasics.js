@@ -1,3 +1,5 @@
+//slides: https://slides.com/harkiratsingh-8/week-1-2javascript-foundation
+
 console.log("Hello World");
 const a = 2;
 console.log(a)
