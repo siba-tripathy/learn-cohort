@@ -1,4 +1,6 @@
 slides: https://slides.com/harkiratsingh-8/deck#/9
+Refer the index.html for different experiemnts
+Refer the zerodha-clone.html for beautified final clone
 
 Browsers: 
     used for rendering(putting all images/buttons etc) html files (to show pages) from servers. Chrome/Edge/Firefox
@@ -63,23 +65,41 @@ CSS
 
     Common style Attributes
         font-size: 20px; //font size
+        font-weight: make slim/bold fonts
+        color: apply/change color any diff
         border-radius : 10px; //smooth corners 
         border: 2px solid black // entire border line of the div, can be dotted etc
+        cursor: pointer //says whenever someone hovers over my div, cursour turns to a pointer(palm)
 
         padding: 5px; add some space all around inside the div
         margin: 7px; add some space outside the div
+        margin-left, margin-right
 
         Can use Chrome Dev Tools(Right Click -> Inspect -> Elements Tab : Styles sub-tab), to debug
         and quick testing your style settings
 
-        box-shadow: 2px, 10px, 10px black;  add shadow (left-right shadow positioning, up-down shadow positioning, blur of shadow, color of shadow)
+        "box-shadow: 2px 10px 10px black;"  add shadow (left-right shadow positioning, up-down shadow positioning, blur of shadow, color of shadow)
 
 
         usually you need to get the figma file from where you copy the styles 
 
 
+    Positioning:
+        divs take whole width, span takes only the width thats needed. How can we make the divs take only the space that they need?
 
+        old/dumb way: use float to take a span to the right side of the outer div. 
+        style="float: right;"
 
+        right way(best) is flex box: helps in case of complex composition of components. parent div be flex box, and all children siblings be divs.
 
+        display: flex on parent makes all div siblings reside in same line
+        justify-content: 
+            flex-start      : all child to start (deafult)
+            flex-end        : all child to right of flex
+            center          : all child to cneter of flex
+            space-between   : equally spaced sibling divs
+ 
+
+        There is an advanced concept of responsive UI which can adapt to changing screen sizes and hide some things in smaller windows.
 
 JS

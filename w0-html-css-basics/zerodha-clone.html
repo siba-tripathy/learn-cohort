@@ -1,46 +1,56 @@
 <html>
     <head>
         <title>
-            Zerodha: Your buddy broker.
+            Zerodha: Biggest stock broker in country
         </title>
     </head>
     <body>
-        <div>
-            <span>
+        <!-- see how if we use padding top here it gets us the desired shadow only in bottom
+        if we would have used margin, it would give us shadow on all 4 sides, as div is
+        giving space outside the div, but if we take padding which gives space inside the div
+        our shadow will be correct-->
+        <div style="display: flex; justify-content: space-between; 
+                padding-left: 20px; padding-right: 20px;
+                box-shadow: 2px 1px 2px #eee;">
+            <div style="margin-left: 20px; ">
                 <img width="150" src="zerodha-logo.svg"></img>
-            </span>
-            <span>
-                <a href="https://signup.zerodha.com/">Signup</a>
-            </span>
-            <span>
-                <a href="https://zerodha.com/about/">About</a>
-            </span>
-            <span>
-                <a href="https://zerodha.com/products/">Products</a>
-            </span>
-            <span>
-                <a href="https://zerodha.com/pricing/">Pricing</a>
-            </span>
-            <span>
-                <a href="https://support.zerodha.com/">Support</a>
-            </span>
+            </div>
+            <div style="display: flex;">
+                <div style="margin-right: 10px;">
+                    <a style="text-decoration: none; color: black; font-family: Arial, Helvetica, sans-serif;" href="https://signup.zerodha.com/">Signup</a>
+                </div>
+                <div style="margin-left: 10px; margin-right: 10px;">
+                    <a style="text-decoration: none; color: black; font-family: Arial, Helvetica, sans-serif;" href="https://zerodha.com/about/">About</a>
+                </div>
+                <div style="margin-left: 10px; margin-right: 10px;">
+                    <a style="text-decoration: none; color: black; font-family: Arial, Helvetica, sans-serif;" href="https://zerodha.com/products/">Products</a>
+                </div>
+                <div style="margin-left: 10px; margin-right: 10px;">
+                    <a style="text-decoration: none; color: black; font-family: Arial, Helvetica, sans-serif;" href="https://zerodha.com/pricing/">Pricing</a>
+                </div>
+                <div style="margin-left: 10px; margin-right: 10px;">
+                    <a style="text-decoration: none; color: black; font-family: Arial, Helvetica, sans-serif;" href="https://support.zerodha.com/">Support</a>
+                </div>
+            </div>
         </div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <div>
-            <img width="900" src="landing.png">
+       
+        <div style="display: flex; justify-content: center; padding-top: 25px;">
+            <img width="1200px" src="landing.png">
         </div>
-        <div>
-            <center>
-                <h1>Invest in everything</h1>
-                <p>Online platform to invest in stocks, derivates, mutual funds and more</p>
-            </center>
+        <div style="display: flex; justify-content: center;">
+            <h1 style="color: black; font-family: Arial, Helvetica, sans-serif; font-weight: 300;">Invest in everything</h1>
         </div>
-        <div>
-            <center> 
-                <button>Sign up now</button>
-            </center>
+        
+        <div style="display: flex; justify-content: center; ">
+            <p style="color: black; font-family: Arial, Helvetica, sans-serif; font-weight: 300;">Online platform to invest in stocks, derivates, mutual funds and more</p>
+        </div>
+
+        <div style="display: flex; justify-content: center;">
+            <!-- as buttons are very primitive, mostly they are some styled divs instead of html buttons-->
+            <button style="color: white; background-color:cornflowerblue; 
+                border-radius : 2px; border: 0px;
+                padding-top: 8px; padding-bottom: 8px; padding-left: 20px; padding-right: 20px;
+                font-size: 17; cursor: pointe; ">Sign up now</button>
         </div>
     <body>
 
